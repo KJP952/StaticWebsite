@@ -2,23 +2,56 @@ body {
     background-color: rgb(35, 35, 40);
 }
 
-li {
-    float: right;
-    list-style-type: none;
+.navbar {
     padding-top: 40px;
+
 }
 
-li .Home {
-    padding-left: 100px;
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.links{
-    padding-right: 100px;
-}
-
-li a{
+.navlinks a {
     color: white;
-    text-align: center;
-    text-decoration: none;
-    padding: 20px;
+    text-decoration: none; 
+    list-style-type: none;
+}
+
+.navlinks .home {
+    margin-right: auto;
+    list-style-type: none;
+    padding-left: 10%;
+  }
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    padding-right: 5%;
+}
+ 
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    color: rgb(246, 119, 107);
+}
+
+.title p{
+    color: white;
+    margin-top: -.5%;
 }
