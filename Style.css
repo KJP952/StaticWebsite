@@ -1,3 +1,24 @@
 body {
-    background-color: blue;
+    background-color: rgb(35, 35, 40);
+}
+
+li {
+    float: right;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+li .Home {
+    padding-left: 100px;
+}
+
+.links{
+    padding-right: 100px;
+}
+
+li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
 }
