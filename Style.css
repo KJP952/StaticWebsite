@@ -55,3 +55,20 @@ body {
     color: white;
     margin-top: -.5%;
 }
+
+/* Mid words */
+.midWords{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    gap:2%;
+    color: rgb(143, 143, 143);
+    word-spacing: 5px;
+    font-size:larger;
+    margin-left: -10%;
+}
+
+.words{
+    display: flex;
+    gap:5%;
+}
