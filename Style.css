@@ -72,3 +72,57 @@ body {
     display: flex;
     gap:5%;
 }
+
+/* gird */
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    margin-top: 4%;
+}
+
+.box{
+    background-color: white;
+    border-radius: 25px;
+    width: 20%;
+    margin: 2%;
+    padding: 3%;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.row3 {
+    display: flex;
+    justify-content: center;
+}
+
+.box img{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+    margin-top: -5%;
+}
+
+.box h4{
+    color: black;
+    display: flex;
+}
+
+.box p{
+    color: black;
+    display: flex;
+}
